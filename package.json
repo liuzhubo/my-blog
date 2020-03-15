@@ -10,7 +10,8 @@
   "repository": "/myBlog",
   "scripts": {
     "dev": "vuepress dev blog",
-    "build": "vuepress build blog"
+    "build": "vuepress build blog",
+    "deploy": "bash deploy.sh"
   },
   "license": "MIT",
   "devDependencies": {
